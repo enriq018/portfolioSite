@@ -82,3 +82,32 @@ body, html{
 .javi {
   padding: 10px;
 }
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.resume {
+  left:0;
+    top:0;
+  font-size:10px;
+  font-family: sans-serif;
+  margin:0;
+}
+
+/*.landingButtons {
+  padding: 20px;
+     width: 50%;
+  margin: 0 auto;
+}
+*/
