@@ -8,7 +8,7 @@ body, html{
   color:#666;
 }
 
-.pimg1, .pimg2, .pimg3{
+.pimg1, .pimg2{
   position:relative;
   opacity:0.70;
   background-position:center;
@@ -22,19 +22,50 @@ body, html{
   background-attachment:fixed;
 }
 
+.pimg3{
+  opacity:0.80;
+
+  background-size: auto 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+
+/*  
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+.pimg4{
+  opacity:0.80;
+  background-position: center; 
+  background-repeat: no-repeat;
+
+/*  
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:scroll;
+}
+
+
 .pimg1{
   background-image:url('https://distinctioncommunication.com/app/uploads/2016/03/blog-posts-768x667.jpg');
   min-height:800px;
 }
 
 .pimg2{
-  background-image:url('https://media-exp2.licdn.com/mpr/mpr/shrinknp_200_200/AAIA_wDGAAAAAQAAAAAAAA0TAAAAJGVlNDE2NWVmLTM2NTgtNDlkNS1iNThhLTAwZWZkMWIwMGM2Nw.jpg');
+  background-image:url('https://images.template.net/wp-content/uploads/2015/09/30062041/Abstract-Cool-Backgrounds1.jpg');
   min-height:400px;
 }
 
 .pimg3{
-  background-image:url('https://static.pexels.com/photos/457882/pexels-photo-457882.jpeg');
-  min-height:400px;
+  background-image:url('https://javier-enriquez.000webhostapp.com/sys_architecture_v3.png');
+  min-height:200px;
+}
+.pimg4{
+  background-image:url('https://javier-enriquez.000webhostapp.com/FWTMockFIxed.jpg');
+  min-height:450px;
 }
 
 .section{
@@ -74,7 +105,7 @@ body, html{
 }
 
 @media(max-width:568px){
-  .pimg1, .pimg2, .pimg3{
+  .pimg1, .pimg2, .pimg3, .pimg4{
     background-attachment:scroll;
   }
 }
@@ -111,3 +142,53 @@ body, html{
   margin: 0 auto;
 }
 */
+
+.tilePic {
+  padding: 10px;
+
+
+  /* -webkit-filter: brightness(80%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; */
+
+}
+.tilePic:hover {
+  padding: 10px;
+  /* -webkit-filter: brightness(100%); */
+
+
+}
+
+.video-responsive{
+  
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.video-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+.art {
+  padding-top: 9px;
+}
+
+.modal2 {
+  background-color: wheat;
+  transition: 1s ease;
+}
+
+.modal2:hover {
+    -webkit-transform: scale(1.35);
+    -ms-transform: scale(1.35);
+    transform: scale(1.35);
+    transition: 1s ease;
+  }

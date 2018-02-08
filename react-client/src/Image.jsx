@@ -6,7 +6,7 @@ const Image = (props) => (
   <div className="pimg2">
     <div className="ptext">
       <span className="border trans">
-        Image Two Text
+        Recent Projects
       </span>
     </div>
   </div>
