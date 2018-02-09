@@ -2,25 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom'; 
 import $ from 'jquery'; 
 
-
-{/* <div className="modal-background"></div>
-<div className="modal-card">
-  <header className="modal-card-head">
-    <p className="modal-card-title">Javier Enriquez Resume</p>
-    <button onClick={()=> props.close()} className="button" className="delete" aria-label="close"></button>
-  </header>
-  <section className="modal-card-body">
-
-
-    <img src="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume-page-001.jpg" alt=""/>
-  </section>
-  <footer className="modal-card-foot">
-  <a className="button is-success "href="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume.pdf" download> Download as a pdf</a> 
-    <button onClick={()=> props.close()} className="button">Cancel</button>
-  </footer>
-</div> */}
-
-
 const ModalTwo = (props) => (
   <div className= {props.status ? 'modal is-active' : 'modal'}>
     <div className="modal-background"></div>
@@ -67,7 +48,7 @@ const ProjectTwoSection = (props) => (
             <div className="container">
           <div className="columns is-centered">
             <div className="column is-narrow">
-            <h1 className="title has-text-black has-text-centered	is-1 is-italic has-text-weight-bold">Speed Test</h1>
+            <h1 className="title has-text-black has-text-centered	is-1 is-italic has-text-weight-bold">Art Stress Testing</h1>
     
             <img className="art" src= 'https://javier-enriquez.000webhostapp.com/artileryComparison.png' alt="" />
     
@@ -85,7 +66,7 @@ const ProjectTwoSection = (props) => (
         </p>
       </section>
     
-        <section className="section-dark is-meduim">
+        <section className="section is-meduim">
         <div className="container">
         <div className="columns">
           <div className="column">
@@ -105,19 +86,3 @@ const ProjectTwoSection = (props) => (
 )
 export default ProjectTwoSection
 
-
-{/* <section className="section-dark is-meduim">
-<div className="container is-fluid">
-  <div className="columns is-gapless">
-    <div className="column is-half">
-      <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/user_arch.png' alt="" />
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/8zyRCkLPjO0?rel=0" frameBorder="10"
-    allowFullScreen></iframe>        </div>
-    <div className="column is-half">
-      <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/dbSchema.png' alt="" />
-      <h1 className="has-text-centered">Incorporated Google Sign in to allowed signed in users to save and load stream layouts.</h1>
-
-    </div>
-  </div>
-  </div>
-</section> */}

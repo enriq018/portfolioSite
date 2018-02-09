@@ -49,6 +49,20 @@ body, html{
 }
 
 
+.pimg5{
+  opacity:0.90;
+  background-color: black;
+  background-position: center; 
+  background-repeat: no-repeat;
+
+/*  
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+
 .pimg1{
   background-image:url('https://distinctioncommunication.com/app/uploads/2016/03/blog-posts-768x667.jpg');
   min-height:800px;
@@ -68,6 +82,10 @@ body, html{
   min-height:450px;
 }
 
+.pimg5{
+  background-image:url('https://javier-enriquez.000webhostapp.com/ferretMain.png');
+  min-height:550px;
+}
 .section{
   text-align:center;
   padding:50px 80px;
