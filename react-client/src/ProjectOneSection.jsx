@@ -44,10 +44,19 @@ const ProjectOneSection = () => (
   </section>
 
   <section className="section">
-          <h2>Quick Summary</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
-          </p>
+  <h2>App Overview</h2>
+
+          <h4 className='has-text-left' >
+          Fun with Twitch allows users to watch multiple twitch streams at once and save layouts if they are signed in through their google account. This is accomplished by using the <strong className='bigText'>Twitch API </strong> to gather a list of the current top 20 streamers and populate a dropdown menu within the main app’s <strong className='bigText'>componentDidMount</strong> method.</h4>
+          <br/>
+          <h4 className='has-text-left'>
+          If a desired streamer isn’t on the list, a user can also search for a stream by streamer name as well. Everytime a streamer is selected, the React state in the main app of component is updated in a <strong className='bigText'>unidirectional </strong> manner. Each stream is a seperate react component and the number of screens selected determines how many streams are rendered to the user.
+          </h4>
+          <br/>
+
+          <h4 className='has-text-left'>
+            Upon a user successfully signing in, a GET request is made to my <strong className='bigText'>express</strong> server to retrieve all of the users previously saved groups and the ability to save/view layouts is presented to the user. Saving a group works by sending a POST request to my server containing all the current streamers/unique user info and then being inserted into a cloud <strong className='bigText'>non relational</strong> database(Mlabs). The entire application was deployed using <strong className='bigText'>Heroku</strong>.
+          </h4>
         </section>
 
   <section className="section-dark is-meduim">

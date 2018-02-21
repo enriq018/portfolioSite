@@ -50,7 +50,7 @@ body, html{
 
 
 .pimg5{
-  opacity:0.90;
+  opacity:0.60;
   background-color: black;
   background-position: center; 
   background-repeat: no-repeat;
@@ -210,3 +210,7 @@ body, html{
     transform: scale(1.35);
     transition: 1s ease;
   }
+
+.bigText{
+  font-size: 113%;
+}

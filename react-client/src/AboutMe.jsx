@@ -12,9 +12,11 @@ const Me = () => (
     </div>
     <div className="card-content">
       <div className="content">
-        <p>I am a results driven problem solver who is always looking to bring value to those around me while having a good
+        <p>I'm a <strong> results driven </strong> problem solver who's always looking to bring value to those around me while having a good
           time!</p>
-        <p>A San Diego native currently living in San Francisco</p>
+        <p>San Diego native living in San Francisco surving the SoCal to NorCal weather changes /s</p>
+        <p>I enjoy anything competitive and a huge sports/e-sports fan (Patriots, Warriors, C9) </p>
+
       </div>
     </div>
   </div>
@@ -32,8 +34,8 @@ const Hack= () => (
     </div>
     <div className="card-content">
       <div className="content">
-        <h6>I am currently employed at Hack Reactor as a Software Engineering Fellow assisting students</h6>
-        <p>I completed the Advanced Software Engineering Immersive Program</p>
+        <p>I am currently employed at Hack Reactor as a <strong> Software Engineering Fellow</strong>. </p>
+        <p>My tasks include assisting students improve their understanding of full-stack applications, debugging strategies, data structures, as well as giving lectures on toy problem solutions with time complexity and algorithim patterns.</p>
       </div>
     </div>
   </div>
@@ -49,8 +51,11 @@ const College = () => (
     </div>
     <div className="card-content">
       <div className="content">
-        <p>I graduated with a degree in Criminology and Justice Studies</p>
-        <p>I want to make the world a safer place for everyone</p>
+        <p>Graduated with a degree in Criminology and Justice Studies focusing in BS</p>
+        <p>Was highly involved with campus organizations and held multiple leadership positions </p>
+          <p>Orientation Team Leader</p>
+          <p>Alpha Psi Rho</p>
+          <p>Cross Cultural Center Peer Educator</p>
       </div>
     </div>
   </div>

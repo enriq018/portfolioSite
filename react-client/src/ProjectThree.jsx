@@ -18,7 +18,7 @@ const ProjectThree = (props) => (
 		            WeAreFerrets
 		          </h1>
 		          <h2 className="subtitle">
-		            Watch videos with other people through web sockets 
+		            Watch videos/chat with other's in real time and share playlist through web sockets 
 		          </h2>
 		        </div>
 
