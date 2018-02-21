@@ -63,15 +63,15 @@ const ProjectOneSection = () => (
     <div className="container is-fluid">
       <div className="columns is-gapless">
         <div className="column is-half">
-        <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/14screens.png' alt="" />
-          <h1 className="has-text-centered">Processed live data from Twitch Api through Express Request to improve client side performance.</h1>
+        <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/2screen2.png' alt="" />
+          <h1 className="has-text-centered">Processed live data from Twitch Api through Express to improve client side performance.</h1>
 
 
 
         </div>
         <div className="column is-half ">
           <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/14screens.png' alt="" />
-          <h1 className="has-text-centered">Processed live data from Twitch Api through Express Request to improve client side performance.</h1>
+          <h1 className="has-text-centered">Rendered databaase information with React components styled using from Bootstrap.</h1>
 
 
         </div>

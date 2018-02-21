@@ -69,8 +69,11 @@ body, html{
 }
 
 .pimg2{
-  background-image:url('https://images.template.net/wp-content/uploads/2015/09/30062041/Abstract-Cool-Backgrounds1.jpg');
-  min-height:400px;
+  background-image:url('http://www.eschoolnews.com/files/2015/12/coding1.jpg');
+  min-height:450px;
+    opacity:0.80;
+
+
 }
 
 .pimg3{
@@ -101,6 +104,8 @@ body, html{
   color:#ddd;
 }
 
+
+
 .ptext{
   position:absolute;
   top:40%;
@@ -130,6 +135,33 @@ body, html{
 
 .javi {
   padding: 10px;
+}
+
+.landingButtons:hover{
+  border-bottom: 5px solid blue;
+ 
+}
+
+.recent {
+      font-size: 150%;
+    font-weight: bold;
+    background-color: red;
+/*        display:inline;
+*/        padding: 10px;
+
+}
+
+#biopic {
+    height: 30%;
+    /* width: 50%; */
+    width: 50%;
+    margin: auto;
+      padding: 10px;
+}
+
+#csusm {
+  padding: 10px;
+
 }
 
 .video-responsive{
