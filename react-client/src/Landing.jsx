@@ -37,11 +37,10 @@ class Landing extends React.Component {
     return (
       <div className="pimg1">
         <div className="ptext">
-          LANDING
           <Resume resumeClicked={this.state.resumeClicked} resumeClick={this.resumeClick}/>
           <h1 className="javi">Javier Enriquez</h1>
-          <h4>Software Engineer </h4>
-          <a onClick={()=> this.resumeClick()} className= "button is-link is-medium landingButtons" >Resume</a>
+          <h4 className="javi2">Software Engineer </h4>
+          <a onClick={()=> this.resumeClick()} className= "button is-outlined is-medium landingButtons" >Resume</a>
           <span> </span>
           <a onClick={()=> window.open('https://github.com/enriq018/', '_blank')} className="button is-medium">
             <span className="icon">

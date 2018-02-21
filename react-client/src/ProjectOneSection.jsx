@@ -84,7 +84,7 @@ const ProjectOneSection = () => (
   <section className="section-dark is-meduim">
   <div className="container is-fluid">
   <h1 className="title has-text-white has-text-centered	is-1 is-italic has-text-weight-bold">Tech Stack</h1>
-        <h2 className="subtitle is-3 has-text-white has-text-centered ">FrontEnd: React.js</h2>
+        <h2 className="subtitle is-3 has-text-white has-text-centered ">FrontEnd: React.js/Bootstrap</h2>
         <h2 className="subtitle is-3 has-text-white has-text-centered ">Server: Express.js</h2>
         <h2 className="subtitle is-3 has-text-white has-text-centered ">Database: MongoDB/Mlabs</h2>
         <h2 className="subtitle is-3 has-text-white has-text-centered ">Deployment: Heroku</h2>
