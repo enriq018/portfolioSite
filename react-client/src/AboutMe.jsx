@@ -50,7 +50,7 @@ const College = () => (
     </div>
     <div className="card-content">
       <div className="content">
-        <p>I graduated with a Bachelor of Arts in Criminology & Justice Studies degree.</p>
+        <p>I graduated with a Bachelor of Arts in Criminology & Justice Studies.</p>
         <p>During my time as a student, I was highly involved with campus organizations and held multiple leadership positions. Some titles include being an Orientation Team Leader and Cross Cultural Center Peer Educator.</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ const College = () => (
 
 const Section = (props) => (
 <div>
-<section className="hero is-info">
+<section id="AboutMe" className="hero is-info">
     <div className="hero-body">
       <div className="container">
         <h1 className="title">

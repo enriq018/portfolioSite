@@ -35,7 +35,7 @@ class Landing extends React.Component {
 
   render() {
     return (
-      <div className="pimg1">
+      <div id="Landing" className="pimg1">
         <div className="ptext">
           <Resume resumeClicked={this.state.resumeClicked} resumeClick={this.resumeClick}/>
           <h1 className="javi">Javier Enriquez</h1>

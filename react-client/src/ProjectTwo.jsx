@@ -20,7 +20,7 @@ class ProjectTwo extends React.Component {
   render(){
     return (
     <div>
-      <div className="pimg3">
+      <div   className="pimg3">
         <div className="ptext">
           <span className="border trans">
           </span>
@@ -38,7 +38,7 @@ class ProjectTwo extends React.Component {
           </span>
         </div>
       </div>
-      <section className="hero is-danger">
+      <section id="TriforceEssence" className="hero is-danger">
         <div className="hero-body">
           <div className="container">
             <div className="columns">
@@ -47,11 +47,11 @@ class ProjectTwo extends React.Component {
                   TriforceEssence
                 </h1>
                 <h2 className="subtitle">
-                  Replicated AirBNB microservice archieteture to test specific user interations and monitor data flow
+                  Replicated AirBNB microservice Architecture to test specific user interations and monitor data flow
                 </h2>
               </div>
               <div className="column">
-                <a onClick={()=> this.open()} className= "button is-warning is-large" >View Arch</a>
+                <a onClick={()=> this.open()} className= "button is-warning is-large" >View Architecture </a>
               </div>
             </div>
           </div>

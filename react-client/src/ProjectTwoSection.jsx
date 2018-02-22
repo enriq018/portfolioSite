@@ -23,13 +23,13 @@ const ProjectTwoSection = (props) => (
             <div className="column">
     
             <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/user_arch.png' alt="" />
-            <h1 className="has-text-centered">User service arhhhhh</h1>
+            <h1 className="has-text-centered">User service flow design</h1>
     
             </div>
             <div className="column is-one-third">
     
             <img className="tilePic" src= 'https://javier-enriquez.000webhostapp.com/dbSchema.png' alt="" />
-            <h1 className="has-text-centered">Database schemaaaa</h1>
+            <h1 className="has-text-centered">Database schema</h1>
     
             </div>
           </div>
@@ -52,7 +52,7 @@ const ProjectTwoSection = (props) => (
             <div className="column is-narrow">
             <h1 className="title has-text-black has-text-centered	is-1 is-italic has-text-weight-bold">Artillery Stress Testing</h1>
     
-            <img className="art" src= 'https://javier-enriquez.000webhostapp.com/artileryComparison.png' alt="" />
+            <img className="art" src= 'https://javier-enriquez.000webhostapp.com/artileryComparison2.png' alt="" />
     
             </div>
     
@@ -63,7 +63,7 @@ const ProjectTwoSection = (props) => (
         <section className="section section-dark">
         
         <h4 className='has-text-left has-text-white-ter words'>
-          Upon building out my microservice and ensuring everything was fully functional, the next step was to see how my microservice would perform under increased stress. Initially, my microservice was not able to perform at a desired level and would cause bottlenecks to the rest of the microservice flow if left unchanged so optimizations had to be made. This is made evident by only being able to handle about <strong className='has-text-white has-text-weight-bold bigText'>60 requests per second </strong> and taking a total of 168886.5 milliseconds (2 min and 50 sec) to complete <strong className='has-text-white has-text-weight-bold bigText'> 10,000 requests </strong>. 
+          Upon building out my microservice and ensuring everything was fully functional, the next step was to see how my microservice would perform under increased stress. Initially, my microservice was not able to perform at a desired level and would cause bottlenecks to the rest of the microservice flow if left unchanged so optimizations had to be made. This is made evident by only being able to handle about <strong className='has-text-warning has-text-weight-bold bigText'>60 requests per second </strong> and taking a total of 168886.5 milliseconds <strong className='has-text-warning has-text-weight-bold bigText'>(2 min and 50 sec)</strong> to complete <strong className='has-text-white has-text-weight-bold bigText'> 10,000 requests </strong>. 
         </h4>
         <br/>
         <h4 className='has-text-left has-text-white-ter words'>
@@ -72,7 +72,7 @@ const ProjectTwoSection = (props) => (
         </h4>
         <br/>
         <h4 className='has-text-left has-text-white-ter words'>
-          My main optimization came from restructuring my MariaDb database schema to incorporate <strong className='has-text-white has-text-weight-bold bigText'>indexing</strong> improving lookup speeds. This optimization allowed my microservice to handle about <strong className='has-text-white has-text-weight-bold bigText'>1,280 requests per second</strong> and finish 10,000 requests in about 6,005 milliseconds (6 seconds) which was well within my teams goal.</h4>
+          My main optimization came from restructuring my MariaDb database schema to incorporate <strong className='has-text-white has-text-weight-bold bigText'>indexing</strong> improving lookup speeds. This optimization allowed my microservice to handle about <strong className='has-text-success has-text-weight-bold bigText'>1,280 requests per second</strong> and finish <strong className='has-text-white has-text-weight-bold bigText'>10,000 requests</strong> in about 6,005 milliseconds <strong className='has-text-success has-text-weight-bold bigText'>(6 seconds)</strong> which was well within my teams goal.</h4>
         <br/>
 
       </section>

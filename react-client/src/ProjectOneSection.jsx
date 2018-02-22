@@ -6,7 +6,7 @@ import $ from 'jquery';
 const ProjectOneSection = () => (
 <div>
   
-  <section className="hero is-primary">
+  <section id="FunWithTwitch"  className="hero is-primary">
     <div className="hero-body">
       <div className="container">
         <div className="columns">
