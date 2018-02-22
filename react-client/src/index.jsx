@@ -8,6 +8,8 @@ import ProjectOne from './ProjectOne.jsx';
 import ProjectOneSection from './ProjectOneSection.jsx'; 
 import ProjectTwo from './ProjectTwo.jsx';
 import ProjectThree from './ProjectThree.jsx';
+import Footer from './Footer.jsx';
+
 
 
 const App = () => (
@@ -19,39 +21,8 @@ const App = () => (
     <ProjectOneSection/>
     <ProjectTwo/>
     <ProjectThree/>
-    <footer className="footer">
-  <div className="container">
-    <div className="content has-text-centered">
-      <h2>Contact Info </h2>
-      <p> Javier Enriquez | jav.enriquez@gmail.com | (760) 613-2781   </p>
-      <p> <strong>Jump to: </strong>  <a href="#Landing">Landing</a> | <a href="#AboutMe">AboutMe</a> | <a href="#FunWithTwitch">FunWithTwitch</a> | <a href="#TriforceEssence"> TriforceEssence </a> | <a href="#WeAreFerrets">WeAreFerrets</a> </p>
-
-
-      <p>
-        This site was build using React/Bulma, Express, and is hosted on AWS S3.
-      </p>
-    </div>
-  </div>
-</footer>
-
-
-
+    <Footer/>
   </div>
 ); 
 ReactDOM.render(<App />, document.getElementById('app'));
 
-
-{/* <div className="pimg1">
-<div className="ptext">
-  <span className="border">
-    I think...
-  </span>
-</div>
-</div>
-<div className="pimg1">
-<div className="ptext">
-  <span className="border">
-    more stuff
-  </span>
-</div>
-</div> */}
