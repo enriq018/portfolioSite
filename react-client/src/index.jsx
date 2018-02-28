@@ -1,28 +1,51 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import $ from 'jquery';
-import Landing from './Landing.jsx';
-import AboutMe from './AboutMe.jsx'; 
-import Image from './Image.jsx'; 
-import ProjectOne from './ProjectOne.jsx'; 
-import ProjectOneSection from './ProjectOneSection.jsx'; 
-import ProjectTwo from './ProjectTwo.jsx';
-import ProjectThree from './ProjectThree.jsx';
-import Footer from './Footer.jsx';
+import Landing from './Landing';
+import AboutMe from './AboutMe';
+import Image from './Image';
+import ProjectOne from './ProjectOne';
+import ProjectOneSection from './ProjectOneSection';
+import ProjectTwo from './ProjectTwo';
+import ProjectThree from './ProjectThree';
+import Footer from './Footer';
 
 
 
 const App = () => (
   <div>
-    <Landing/>
-    <AboutMe/>
-    <Image/>
-    <ProjectOne/>
-    <ProjectOneSection/>
-    <ProjectTwo/>
-    <ProjectThree/>
-    <Footer/>
+    <Landing />
+    <AboutMe />
+    <Image />
+    <ProjectOne />
+    <ProjectOneSection />
+    <ProjectTwo />
+    <ProjectThree />
+    <Footer />
   </div>
-); 
+);
+
 ReactDOM.render(<App />, document.getElementById('app'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ReactDOM.render(<Test />, document.getElementById('landing'));
 

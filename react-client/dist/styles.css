@@ -15,7 +15,7 @@ body, html{
   background-size:cover;
   background-repeat:no-repeat;
 
-/*  
+/*
     fixed = parallax
     scroll = normal
   */
@@ -29,7 +29,7 @@ body, html{
   background-repeat: no-repeat;
   background-position: center;
 
-/*  
+/*
     fixed = parallax
     scroll = normal
   */
@@ -38,10 +38,10 @@ body, html{
 
 .pimg4{
   opacity:0.80;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
 
-/*  
+/*
     fixed = parallax
     scroll = normal
   */
@@ -52,10 +52,10 @@ body, html{
 .pimg5{
   opacity:0.60;
   background-color: black;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
 
-/*  
+/*
     fixed = parallax
     scroll = normal
   */
@@ -139,7 +139,7 @@ body, html{
 
 .landingButtons:hover{
   border-bottom: 5px solid blue;
- 
+
 }
 
 .recent {
@@ -213,7 +213,7 @@ body, html{
 }
 
 .video-responsive{
-  
+
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
