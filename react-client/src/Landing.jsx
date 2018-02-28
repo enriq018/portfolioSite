@@ -1,6 +1,6 @@
-import React from 'react'; 
-import ReactDOM from 'react-dom'; 
-import $ from 'jquery'; 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
 
 const Resume = (props) => (
   <div className={ props.resumeClicked ? 'modal is-active' : 'modal'}>
@@ -19,17 +19,17 @@ const Resume = (props) => (
       </footer>
     </div>
   </div>
-); 
+);
 
-class Landing extends React.Component { 
+class Landing extends React.Component {
   constructor(props) {
     super(props);
       this.state = {
-        resumeClicked: false 
+        resumeClicked: false
       }
-      this.resumeClick = this.resumeClick.bind(this); 
-    } 
-  resumeClick() { 
+      this.resumeClick = this.resumeClick.bind(this);
+    }
+  resumeClick() {
     this.setState({resumeClicked: !this.state.resumeClicked});
   }
 
@@ -37,19 +37,8 @@ class Landing extends React.Component {
     return (
       <div id="Landing" className="pimg1">
         <div className="ptext">
-          <Resume resumeClicked={this.state.resumeClicked} resumeClick={this.resumeClick}/>
           <h1 className="javi">Javier Enriquez</h1>
           <h4 className="javi2">Software Engineer </h4>
-          <a onClick={()=> this.resumeClick()} className= "button is-outlined is-medium landingButtons" >Resume</a>
-          <span> </span>
-          <a onClick={()=> window.open('https://github.com/enriq018/', '_blank')} className="button is-medium landingButtons">
-            <span className="icon ">
-              <i className="fab fa-github "></i>
-            </span>
-            <span>GitHub</span>
-          </a>
-          <span> </span>
-          <a onClick={()=> window.open('https://www.linkedin.com/in/javier-enriquez/', '_blank')} className= "button is-outlined is-medium landingButtons">linkedin</a>
         </div>
       </div>
     );

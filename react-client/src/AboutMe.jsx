@@ -1,5 +1,27 @@
 import React from 'react';
 
+
+const Resume = (props) => (
+  <div className={ props.resumeClicked ? 'modal is-active' : 'modal'}>
+    <div onClick={()=> props.resumeClick()} className="modal-background"></div>
+    <div className="modal-card">
+      <header className="modal-card-head">
+        <p className="modal-card-title">Javier Enriquez Resume</p>
+        <button onClick={()=> props.resumeClick()} className="button" className="delete" aria-label="close"></button>
+      </header>
+      <section className="modal-card-body">
+        <img src="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume-page-001.jpg" alt="" />
+      </section>
+      <footer className="modal-card-foot">
+        <a className="button is-success " href="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume.pdf" download> Download as a pdf</a>
+        <button onClick={()=> props.resumeClick()} className="button">Cancel</button>
+      </footer>
+    </div>
+  </div>
+);
+
+
+/////////////////////////////////////////////////////////////
 const Me = () => (
   <div className="column">
     <div className="card">
@@ -67,15 +89,45 @@ const College = () => (
   </div>
 );
 
-const Section = () => (
+class Section extends React.Component{
+  constructor(props) {
+    super(props);
+      this.state = {
+        resumeClicked: false
+      }
+      this.resumeClick = this.resumeClick.bind(this);
+    }
+  resumeClick() {
+    this.setState({resumeClicked: !this.state.resumeClicked});
+  }
+  render() {
+    return (
   <div>
     <section id="AboutMe" className="hero is-info">
       <div className="hero-body">
         <div className="container">
-          <h1 className="title">
-            About Me:
-          </h1>
-        </div>
+          <div className="columns">
+           <div className="column is-4">
+            <h1 className="title">
+              About Me:
+            </h1>
+           </div>
+           <div className="column is-8">
+             <Resume resumeClicked={this.state.resumeClicked} resumeClick={this.resumeClick}/>
+            <a onClick={()=> this.resumeClick()} className= "button is-outlined is-large landingButtons" >Resume</a>
+            <span> </span>
+            <a onClick={()=> window.open('https://github.com/enriq018/', '_blank')} className="button is-large landingButtons">
+              <span className="icon ">
+                <i className="fab fa-github "></i>
+              </span>
+              <span>GitHub</span>
+            </a>
+            <span> </span>
+            <a onClick={()=> window.open('https://www.linkedin.com/in/javier-enriquez/', '_blank')} className= "button is-outlined is-large landingButtons">Linkedin</a>
+
+           </div>
+          </div>
+          </div>
       </div>
     </section>
     <section className="section section-light">
@@ -87,7 +139,9 @@ const Section = () => (
       </div>
     </section>
   </div>
-);
+)
+  }
+}
 
 export default Section;
 

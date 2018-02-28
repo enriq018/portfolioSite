@@ -26,26 +26,6 @@ const App = () => (
 
 ReactDOM.render(<App />, document.getElementById('app'));
 
+// "https://javier-enriquez.000webhostapp.com/landingVideo.mp4"
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ReactDOM.render(<Test />, document.getElementById('landing'));
 

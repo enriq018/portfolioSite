@@ -64,7 +64,7 @@ body, html{
 
 
 .pimg1{
-  background-image:url('https://distinctioncommunication.com/app/uploads/2016/03/blog-posts-768x667.jpg');
+  /* background-image:url('https://distinctioncommunication.com/app/uploads/2016/03/blog-posts-768x667.jpg'); */
   min-height:800px;
 }
 
@@ -135,10 +135,17 @@ body, html{
 
 .javi {
   padding: 10px;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: -webkit-xxx-large;
+
 }
 
+
 .landingButtons:hover{
-  border-bottom: 5px solid blue;
+  border-bottom: 5px solid yellow;
 
 }
 
@@ -246,3 +253,34 @@ body, html{
 .bigText{
   font-size: 113%;
 }
+.landingVideo{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+      opacity:0.70;
+}
+
+.landingVideo.watching {
+  /*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+      opacity:0.70;
+}
+
+.landingVideo.notWatching {
+background-color: white;
+
+}
+
+
