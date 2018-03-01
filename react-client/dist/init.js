@@ -1,13 +1,11 @@
 $(document).ready(function() {
-
   $(window).scroll(function() {
     var fromTopPx = 800; // distance to trigger video off
     var scrolledFromtop = $(window).scrollTop();
     if (scrolledFromtop < fromTopPx) {
-      $("#fml").show()
+      $("#landingVideoPage").show();
     } else {
-      $("#fml").hide()
+      $("#landingVideoPage").hide();
     }
   });
-
-})
+});

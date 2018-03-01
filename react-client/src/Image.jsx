@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import $ from 'jquery';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const Image = (props) => (
+const Image = props => (
   <div className="pimg2">
     <div className="ptext">
       <span className="border trans">

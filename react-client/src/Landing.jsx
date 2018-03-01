@@ -1,21 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import $ from 'jquery';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const Resume = (props) => (
-  <div className={ props.resumeClicked ? 'modal is-active' : 'modal'}>
-    <div onClick={()=> props.resumeClick()} className="modal-background"></div>
+const Resume = props => (
+  <div className={props.resumeClicked ? "modal is-active" : "modal"}>
+    <div onClick={() => props.resumeClick()} className="modal-background" />
     <div className="modal-card">
       <header className="modal-card-head">
         <p className="modal-card-title">Javier Enriquez Resume</p>
-        <button onClick={()=> props.resumeClick()} className="button" className="delete" aria-label="close"></button>
+        <button
+          onClick={() => props.resumeClick()}
+          className="button"
+          className="delete"
+          aria-label="close"
+        />
       </header>
       <section className="modal-card-body">
-        <img src="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume-page-001.jpg" alt="" />
+        <img
+          src="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume-page-001.jpg"
+          alt=""
+        />
       </section>
       <footer className="modal-card-foot">
-        <a className="button is-success " href="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume.pdf" download> Download as a pdf</a>
-        <button onClick={()=> props.resumeClick()} className="button">Cancel</button>
+        <a
+          className="button is-success "
+          href="https://javier-enriquez.000webhostapp.com/JavierEnriquezResume.pdf"
+          download
+        >
+          {" "}
+          Download as a pdf
+        </a>
+        <button onClick={() => props.resumeClick()} className="button">
+          Cancel
+        </button>
       </footer>
     </div>
   </div>
@@ -24,13 +40,13 @@ const Resume = (props) => (
 class Landing extends React.Component {
   constructor(props) {
     super(props);
-      this.state = {
-        resumeClicked: false
-      }
-      this.resumeClick = this.resumeClick.bind(this);
-    }
+    this.state = {
+      resumeClicked: false
+    };
+    this.resumeClick = this.resumeClick.bind(this);
+  }
   resumeClick() {
-    this.setState({resumeClicked: !this.state.resumeClicked});
+    this.setState({ resumeClicked: !this.state.resumeClicked });
   }
 
   render() {
@@ -45,4 +61,4 @@ class Landing extends React.Component {
   }
 }
 
-export default Landing
+export default Landing;
