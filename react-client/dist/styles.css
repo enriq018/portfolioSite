@@ -137,15 +137,39 @@ body, html{
   padding: 10px;
   color: black;
   -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: black;
-  font-size: -webkit-xxx-large;
+  /*font-size: -webkit-xxx-large;*/
+      font-weight: bold;
+    font-size: 550%;
+      text-decoration: underline;
+
+
 
 }
 
 
+.javi2 {
+  padding: 50px;
+  color: white;
+  -webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  /*font-size: -webkit-xxx-large;*/
+    font-size: 350%;
+        font-style: bold;
+
+}
+
+.javi3{
+    background-color: rgba(221, 221, 221, 0.32);
+    padding-top: 30px padding-bottom:-10px;
+    padding-top: 50px;
+}
+
+
 .landingButtons:hover{
-  border-bottom: 5px solid yellow;
+  border-bottom: 5px solid red;
 
 }
 
@@ -262,25 +286,9 @@ body, html{
   width: auto;
   height: auto;
   z-index: -100;
-      opacity:0.70;
+      opacity:0.65;
+      background-color: lightblue;
 }
 
-.landingVideo.watching {
-  /*  making the video fullscreen  */
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-      opacity:0.70;
-}
-
-.landingVideo.notWatching {
-background-color: white;
-
-}
 
 

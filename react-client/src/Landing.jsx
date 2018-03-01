@@ -36,7 +36,7 @@ class Landing extends React.Component {
   render() {
     return (
       <div id="Landing" className="pimg1">
-        <div className="ptext">
+        <div className="ptext javi3">
           <h1 className="javi">Javier Enriquez</h1>
           <h4 className="javi2">Software Engineer </h4>
         </div>
