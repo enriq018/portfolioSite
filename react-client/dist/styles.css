@@ -1,189 +1,221 @@
-body, html{
-  height:100%;
-  margin:0;
-  font-size:16px;
-  font-family:"Lato", sans-serif;
-  font-weight:400;
-  line-height:1.8em;
-  color:#666;
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
 }
 
-.pimg1, .pimg2{
-  position:relative;
-  opacity:0.70;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-
-/*  
+.pimg1,
+.pimg2 {
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*
     fixed = parallax
     scroll = normal
   */
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
-.pimg3{
-  opacity:0.80;
-
+.pimg3 {
+  opacity: 0.80;
   background-size: auto 120%;
   background-repeat: no-repeat;
   background-position: center;
-
-/*  
+  /*
     fixed = parallax
     scroll = normal
   */
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
-.pimg4{
-  opacity:0.80;
-  background-position: center; 
+.pimg4 {
+  opacity: 0.80;
+  background-position: center;
   background-repeat: no-repeat;
-
-/*  
+  /*
     fixed = parallax
     scroll = normal
   */
-  background-attachment:scroll;
+  background-attachment: scroll;
 }
 
-
-.pimg5{
-  opacity:0.60;
+.pimg5 {
+  opacity: 0.60;
   background-color: black;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
-
-/*  
+  /*
     fixed = parallax
     scroll = normal
   */
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 
-
-.pimg1{
-  background-image:url('https://distinctioncommunication.com/app/uploads/2016/03/blog-posts-768x667.jpg');
-  min-height:800px;
+.pimg1 {
+  /* background-image:url('https://distinctioncommunication.com/app/uploads/2016/03/blog-posts-768x667.jpg'); */
+  min-height: 800px;
 }
 
-.pimg2{
-  background-image:url('http://www.eschoolnews.com/files/2015/12/coding1.jpg');
-  min-height:450px;
-    opacity:0.80;
-
-
+.pimg2 {
+  background-image: url('http://www.eschoolnews.com/files/2015/12/coding1.jpg');
+  min-height: 450px;
+  opacity: 0.80;
 }
 
-.pimg3{
-  background-image:url('https://javier-enriquez.000webhostapp.com/sys_architecture_v3.png');
-  min-height:200px;
-}
-.pimg4{
-  background-image:url('https://javier-enriquez.000webhostapp.com/FWTMockFIxed.jpg');
-  min-height:450px;
+.pimg3 {
+  background-image: url('https://javier-enriquez.000webhostapp.com/sys_architecture_v3.png');
+  min-height: 200px;
 }
 
-.pimg5{
-  background-image:url('https://javier-enriquez.000webhostapp.com/ferretMain.png');
-  min-height:550px;
-}
-.section{
-  text-align:center;
-  padding:50px 80px;
+.pimg4 {
+  background-image: url('https://javier-enriquez.000webhostapp.com/FWTMock2.jpg');
+  min-height: 450px;
 }
 
-.section-light{
-  background-color:#f4f4f4;
-  color:#666;
+.pimg5 {
+  background-image: url('https://javier-enriquez.000webhostapp.com/ferretMain.png');
+  min-height: 550px;
 }
 
-.section-dark{
-  background-color:#282e34;
-  color:#ddd;
+.section {
+  text-align: center;
+  padding: 50px 80px;
 }
 
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
 
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
 
-.ptext{
-  position:absolute;
-  top:40%;
-  width:100%;
-  text-align:center;
-  color:#000;
+.ptext {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
   /*font-size:27px;*/
-  letter-spacing:8px;
-  text-transform:uppercase;
+  letter-spacing: 8px;
+  text-transform: uppercase;
 }
 
-.ptext .border{
-  background-color:#111;
-  color:#fff;
-  padding:20px;
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
 }
 
-.ptext .border.trans{
-  background-color:transparent;
+.ptext .border.trans {
+  background-color: transparent;
 }
 
-@media(max-width:568px){
-  .pimg1, .pimg2, .pimg3, .pimg4{
-    background-attachment:scroll;
+@media(max-width:568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4 {
+    background-attachment: scroll;
   }
 }
 
 .javi {
   padding: 10px;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  /*font-size: -webkit-xxx-large;*/
+  font-weight: bold;
+  font-size: 550%;
+  text-decoration: underline;
 }
 
-.landingButtons:hover{
-  border-bottom: 5px solid blue;
- 
+.javi2 {
+  padding: 50px;
+  color: white;
+  -webkit-text-fill-color: whitesmoke;
+  /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  /*font-size: -webkit-xxx-large;*/
+  font-size: 350%;
+  font-style: bold;
+}
+
+.javi3 {
+  background-color: rgba(221, 221, 221, 0.32);
+  padding-top: 30px padding-bottom:-10px;
+  padding-top: 50px;
+}
+
+.landingButtons:hover {
+  border-bottom: 5px solid red;
 }
 
 .recent {
-      font-size: 150%;
-    font-weight: bold;
-    background-color: red;
-/*        display:inline;
-*/        padding: 10px;
-
+  background-color: red;
+  font-size: 400%;
+  font-weight: bold;
+  /* display: inline; */
+  padding: 20px;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 #biopic {
-    height: 30%;
-    /* width: 50%; */
-    width: 50%;
-    margin: auto;
-      padding: 10px;
+  height: 30%;
+  /* width: 50%; */
+  width: 50%;
+  margin: auto;
+  padding: 10px;
 }
 
 #csusm {
   padding: 10px;
-
 }
 
-.video-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.resumeModal{
+      height: auto;
+      max-width: 100%;
+      -webkit-transform: scale(1.35);
+      -ms-transform: scale(1.35);
+      transform: scale(1.1);
+      transition: 1s ease;
 }
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .resume {
-  left:0;
-    top:0;
-  font-size:10px;
+  left: 0;
+  top: 0;
+  font-size: 10px;
   font-family: sans-serif;
-  margin:0;
+  margin: 0;
 }
 
 /*.landingButtons {
@@ -195,36 +227,32 @@ body, html{
 
 .tilePic {
   padding: 10px;
-
-
   /* -webkit-filter: brightness(80%);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
   transition: all 1s ease; */
-
 }
+
 .tilePic:hover {
   padding: 10px;
   /* -webkit-filter: brightness(100%); */
-
-
 }
 
-.video-responsive{
-  
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  height:0;
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
-.video-responsive iframe{
-  left:0;
-  top:0;
-  height:100%;
-  width:100%;
-  position:absolute;
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .art {
@@ -237,12 +265,61 @@ body, html{
 }
 
 .modal2:hover {
-    -webkit-transform: scale(1.35);
-    -ms-transform: scale(1.35);
-    transform: scale(1.35);
-    transition: 1s ease;
-  }
+  -webkit-transform: scale(1.35);
+  -ms-transform: scale(1.35);
+  transform: scale(1.35);
+  transition: 1s ease;
+}
 
-.bigText{
+.bigText {
   font-size: 113%;
+}
+
+.landingVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  opacity: 0.65;
+  background-color: whitesmoke;
+}
+
+a.button.is-danger.is-large,
+.button.is-warning.is-large {
+  border: 2px solid black;
+}
+
+a.button.is-danger.is-large:hover {
+  border: 3px solid black;
+}
+
+.button.is-warning.is-large:hover {
+  border: 3px solid black;
+}
+
+.hero.is-primary .title,
+.hero.is-danger .title,
+.ferret {
+  color: #fff;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+h1.contactInfo {
+  background-color: rgba(255, 221, 87, 0.71);
+  display: inline-block;
+}
+
+.contactInfoContent {
+  font-size: 140%;
+  color: black
+}
+
+h2.subtitle {
+  font-size: 150%;
 }
