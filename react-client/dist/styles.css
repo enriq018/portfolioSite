@@ -312,3 +312,18 @@ a.button.is-danger.is-large:hover {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
 }
+
+h1.contactInfo {
+    background-color: rgba(255, 221, 87, 0.71);
+    display: inline-block;
+}
+
+.contactInfoContent{
+    font-size: 140%;
+    color: black
+
+}
+
+h2.subtitle {
+  font-size: 150%;
+}

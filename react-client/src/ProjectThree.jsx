@@ -13,12 +13,12 @@ const ProjectThree = (props) => (
 		  <div  className="hero-body">
 		    <div className="container">
 		      <div className="columns">
-		        <div className="column is-three-quarters">
+		        <div className="column">
 		          <h1 className="title ferret is-size-1">
 		            WeAreFerrets
 		          </h1>
 		          <h2  className="subtitle">
-		            Watch videos/chat with other's in real time and share playlist through web sockets
+		            Watch videos/chat with other's in real time and share playlist through web sockets.
 		          </h2>
 		        </div>
 

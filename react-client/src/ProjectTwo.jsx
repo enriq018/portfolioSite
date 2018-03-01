@@ -47,7 +47,7 @@ class ProjectTwo extends React.Component {
                   TriforceEssence
                 </h1>
                 <h2 className="subtitle">
-                  Replicated AirBNB microservice Architecture to test specific user interations and monitor data flow
+                  Replicated Airbnb microservice architecture to test specific user interations and monitor data flow.
                 </h2>
               </div>
               <div className="column">
