@@ -1,22 +1,22 @@
-import React from 'react'; 
-import ReactDOM from 'react-dom'; 
-import $ from 'jquery'; 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
 import ProjectTwoSection from './ProjectTwoSection.jsx';
 
-class ProjectTwo extends React.Component { 
-  constructor(props){ 
-    super(props) 
-    this.state = { status: false 
-    } 
+class ProjectTwo extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = { status: false
+    }
     this.close = this.close.bind(this);
-    this.open = this.open.bind(this) 
-  } 
+    this.open = this.open.bind(this)
+  }
   open(){
-    this.setState({status:true}) 
-  } 
-  close(){ 
-    this.setState({status:false}) 
-  } 
+    this.setState({status:true})
+  }
+  close(){
+    this.setState({status:false})
+  }
   render(){
     return (
     <div>
@@ -43,7 +43,7 @@ class ProjectTwo extends React.Component {
           <div className="container">
             <div className="columns">
               <div className="column is-three-quarters">
-                <h1 className="title">
+                <h1 className="title is-size-1">
                   TriforceEssence
                 </h1>
                 <h2 className="subtitle">
@@ -59,6 +59,6 @@ class ProjectTwo extends React.Component {
       </section>
       <ProjectTwoSection status={this.state.status} close={this.close}/>
     </div>
-  )} 
-} 
+  )}
+}
 export default ProjectTwo;

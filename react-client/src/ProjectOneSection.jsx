@@ -11,7 +11,7 @@ const ProjectOneSection = () => (
       <div className="container">
         <div className="columns">
           <div className="column is-three-quarters">
-            <h1 className="title">
+            <h1 className="title is-size-1">
               FunWithTwitch
             </h1>
             <h2 className="subtitle">
