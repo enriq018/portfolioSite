@@ -1,6 +1,6 @@
-import React from 'react'; 
-import ReactDOM from 'react-dom'; 
-import $ from 'jquery'; 
+import React from 'react';
+import ReactDOM from 'react-dom';
+import $ from 'jquery';
 
 
 
@@ -14,7 +14,7 @@ const ProjectThreeSection = (props) => (
     <section className="section section-dark">
               <h2>App Overview</h2>
               <h4 className='has-text-left has-text-white-ter words'>
-              WeAreFerrets allows multiple users to join various rooms together and view Youtube video content simultaneously. This is accomplished through the use of <strong className='has-text-white has-text-weight-bold bigText'>React Router</strong> to reroute a user to a specific room and using <strong className='has-text-white has-text-weight-bold bigText'>Websocket.io </strong> to give each room it’s own unique websocket connection allowing all users within the room to interact with one another.
+              WeAreFerrets allows multiple users to join various rooms together and view Youtube video content simultaneously. This is accomplished through the use of <strong className='has-text-white has-text-weight-bold bigText'>React Router</strong> to reroute a user to a specific room and using <strong className='has-text-white has-text-weight-bold bigText'>Websocket.io </strong> to give each room its own unique websocket connection allowing all users within the room to interact with one another.
               </h4>
               <br/>
               <h4 className='has-text-left has-text-white-ter words'>

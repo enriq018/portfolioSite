@@ -78,8 +78,8 @@ const ProjectTwoSection = props => (
       would perform under increased stress. Initially, my microservice was not able to perform at a desired level and would
       cause bottlenecks to the rest of the microservice flow if left unchanged so optimizations had to be made. This is made
       evident by only being able to handle about
-      <strong className='has-text-warning has-text-weight-bold bigText'>60 requests per second </strong> and taking a total of 168886.5 milliseconds
-      <strong className='has-text-warning has-text-weight-bold bigText'>(2 min and 50 sec)</strong> to complete
+      <strong className='has-text-warning has-text-weight-bold bigText'> 60 requests per second </strong> and taking a total of 168886.5 milliseconds
+      <strong className='has-text-warning has-text-weight-bold bigText'> (2 min and 50 sec)</strong> to complete
       <strong className='has-text-white has-text-weight-bold bigText'> 10,000 requests </strong>.
     </h4>
     <br/>
@@ -91,10 +91,10 @@ const ProjectTwoSection = props => (
     <br/>
     <h4 className='has-text-left has-text-white-ter words'>
       My main optimization came from restructuring my MariaDb database schema to incorporate
-      <strong className='has-text-white has-text-weight-bold bigText'>indexing</strong> improving lookup speeds. This optimization allowed my microservice to handle about
-      <strong className='has-text-success has-text-weight-bold bigText'>1,280 requests per second</strong> and finish
-      <strong className='has-text-white has-text-weight-bold bigText'>10,000 requests</strong> in about 6,005 milliseconds
-      <strong className='has-text-success has-text-weight-bold bigText'>(6 seconds)</strong> which was well within my teams goal.</h4>
+      <strong className='has-text-white has-text-weight-bold bigText'> indexing</strong> improving lookup speeds. This optimization allowed my microservice to handle about
+      <strong className='has-text-success has-text-weight-bold bigText'> 1,280 requests per second</strong> and finish
+      <strong className='has-text-white has-text-weight-bold bigText'> 10,000 requests</strong> in about 6,005 milliseconds
+      <strong className='has-text-success has-text-weight-bold bigText'> (6 seconds)</strong> which was well within my teams goal.</h4>
     <br/>
 
   </section>
