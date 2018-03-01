@@ -298,6 +298,14 @@ a.button.is-danger.is-large, .button.is-warning.is-large {
     border: 2px solid black;
 }
 
+a.button.is-danger.is-large:hover {
+    border: 3px solid black;
+}
+
+.button.is-warning.is-large:hover {
+    border: 3px solid black;
+}
+
 .hero.is-primary .title, .hero.is-danger .title, .ferret  {
     color: #fff;
     -webkit-text-fill-color: white;

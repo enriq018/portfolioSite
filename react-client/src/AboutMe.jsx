@@ -6,6 +6,7 @@ const Resume = (props) => (
     <div onClick={()=> props.resumeClick()} className="modal-background"></div>
     <div className="modal-card">
       <header className="modal-card-head">
+
         <p className="modal-card-title">Javier Enriquez Resume</p>
         <button onClick={()=> props.resumeClick()} className="button" className="delete" aria-label="close"></button>
       </header>
@@ -114,16 +115,26 @@ class Section extends React.Component{
            </div>
            <div className="column is-8">
              <Resume resumeClicked={this.state.resumeClicked} resumeClick={this.resumeClick}/>
-            <a onClick={()=> this.resumeClick()} className= "button is-outlined is-large landingButtons" >Resume</a>
+            <a onClick={()=> this.resumeClick()} className= "button is-outlined is-large landingButtons" >
+                  <span>Resume </span>
+                  <span className="icon is-small">
+                  <i className="far fa-address-card" aria-hidden="true" />
+                </span>
+            </a>
             <span> </span>
             <a onClick={()=> window.open('https://github.com/enriq018/', '_blank')} className="button is-large landingButtons">
+              <span>GitHub </span>
               <span className="icon ">
                 <i className="fab fa-github "></i>
               </span>
-              <span>GitHub</span>
             </a>
             <span> </span>
-            <a onClick={()=> window.open('https://www.linkedin.com/in/javier-enriquez/', '_blank')} className= "button is-outlined is-large landingButtons">Linkedin</a>
+            <a onClick={()=> window.open('https://www.linkedin.com/in/javier-enriquez/', '_blank')} className= "button is-outlined is-large landingButtons">
+                      <span>Linkedin </span>
+                  <span className="icon is-small">
+                  <i className="fab fa-linkedin" aria-hidden="true" />
+                </span>
+            </a>
 
            </div>
           </div>

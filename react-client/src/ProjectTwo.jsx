@@ -51,7 +51,12 @@ class ProjectTwo extends React.Component {
                 </h2>
               </div>
               <div className="column">
-                <a onClick={()=> this.open()} className= "button is-warning is-large" >View Architecture </a>
+                <a onClick={()=> this.open()} className= "button is-warning is-large" >
+       <span>View architecture </span>
+                  <span className="icon is-small">
+                  <i className="fas fa-eye" aria-hidden="true" />
+                </span>
+                 </a>
               </div>
             </div>
           </div>

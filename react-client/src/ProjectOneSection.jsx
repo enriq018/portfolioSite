@@ -20,7 +20,13 @@ const ProjectOneSection = () => (
           </div>
           <div className="column">
             <a onClick={()=> window.open('http://blooming-chamber-65699.herokuapp.com', '_blank')} className= "button is-danger is-large"
-              >See it in action</a>
+              >
+                <span>See it in action </span>
+                  <span className="icon is-small">
+                  <i className="fas fa-share" aria-hidden="true" />
+                </span>
+
+              </a>
           </div>
         </div>
       </div>
